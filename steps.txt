@@ -1,0 +1,5 @@
+oc adm policy add-scc-to-user -z default anyuid
+
+
+gitea admin create-user --must-change-password=false --email=foo3@foo.com --username=foo3 --password=tester --must-change-password=false
+
